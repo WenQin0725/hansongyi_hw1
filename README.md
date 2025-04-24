@@ -1,6 +1,6 @@
 # add_Matrix
 遍历每一个位置然后相加
-![](image\add.png)
+![](image/add.png)
 # sub_Matrix
 遍历每一个位置然后相减
 # mul_Matrix
