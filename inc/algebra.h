@@ -23,6 +23,17 @@ Matrix create_matrix(int rows, int cols);
  * @param b 矩阵b
  * @return a + b, 如果a和b的行数或列数不相等，会给出错误提示"Error: Matrix a and b must have the same rows and cols.\n"并返回一个空矩阵
 */
+
+Matrix K_Matrix(Matrix a,int I,int J);
+
+int signal(int i,int j);
+
+Matrix swapRows(Matrix a,int i_1,int i_2);
+
+int checkZeroRowBlow(Matrix a,int I);
+
+Matrix Elimination(Matrix a,int I,int J);
+
 Matrix add_matrix(Matrix a, Matrix b);
 
 /**
